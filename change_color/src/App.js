@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function App() {
-  const [selectedColor, setSelectedColor] = useState(null);
+  const [selectedColor, setSelectedColor] = useState('');
 
   const handleColorClick = (color) => {
     setSelectedColor(color);
